@@ -5,6 +5,7 @@
 # license from CompatibL and with the inclusion of this copyright notice.
 
 import pytest
+import aenc
 
 import aemm
 
@@ -14,8 +15,10 @@ import aemm
 def test_smoke():
     """Smoke test."""
 
-    # At this point we just ensure that the model instance can be created
-    obj = aemm.ForwardRateModel()
+    # At this point we just ensure that we can create an instance
+    # of one class from this package and one class from aenc package
+    obj1 = aemm.ForwardRateModel()
+    obj2 = aenc.NelsonSiegel()
 
 
 if __name__ == '__main__':
