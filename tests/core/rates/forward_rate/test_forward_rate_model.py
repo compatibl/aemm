@@ -4,8 +4,8 @@
 # or distributed only in compliance with the terms of a written commercial
 # license from CompatibL and with the inclusion of this copyright notice.
 
-import pytest
 import aenc
+import pytest
 
 import aemm
 
