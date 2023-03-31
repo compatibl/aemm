@@ -23,5 +23,3 @@ class ModelMeasure(Enum):
 
     P = 2
     """Real world (P) measure."""
-
-
