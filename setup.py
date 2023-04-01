@@ -8,7 +8,7 @@ with open('./requirements.txt') as requirements_file:
 
 setuptools.setup(
     name='aemm',
-    version='0.0.1',
+    version='0.0.2',
     author="The Project Contributors",
     description='Autoencoder Market Models (AEMM)',
     long_description=readme,
