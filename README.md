@@ -1,5 +1,10 @@
 # Autoencoder Market Models (AEMM)
-
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/compatibl/aemm/python-package.yml)
+![GitHub](https://img.shields.io/github/license/compatibl/aemm)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/aemm)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aemm)
+![PyPI](https://img.shields.io/pypi/v/aemm)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/compatibl/aemm/pulls)
 ## Overview
 
 This package implements autoencoder-based models in Q- and P-measure.
