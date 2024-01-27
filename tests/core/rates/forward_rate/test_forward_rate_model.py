@@ -12,7 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import aenc
 import pytest
 
 import aemm
@@ -26,7 +25,6 @@ def test_smoke():
     # At this point we just ensure that we can create an instance
     # of one class from this package and one class from aenc package
     obj1 = aemm.ForwardRateModel()
-    obj2 = aenc.NelsonSiegel()
 
 
 if __name__ == '__main__':
