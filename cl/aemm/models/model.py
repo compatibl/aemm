@@ -15,9 +15,9 @@
 from dataclasses import dataclass, field
 from typing import Union
 
-from aemm.core.model_key import ModelKey
-from aemm.core.model_measure import ModelMeasure
-from aemm.core.model_type import ModelType
+from cl.aemm.models.model_key import ModelKey
+from cl.aemm.models.model_measure import ModelMeasure
+from cl.aemm.models.model_type import ModelType
 
 
 @dataclass

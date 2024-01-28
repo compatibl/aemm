@@ -14,7 +14,7 @@
 
 import pytest
 
-import aemm
+from cl.aemm import ForwardRateModel
 
 # Tests for ForwardRateModels
 
@@ -24,7 +24,7 @@ def test_smoke():
 
     # At this point we just ensure that we can create an instance
     # of one class from this package and one class from aenc package
-    obj1 = aemm.ForwardRateModel()
+    obj1 = ForwardRateModel()
 
 
 if __name__ == '__main__':

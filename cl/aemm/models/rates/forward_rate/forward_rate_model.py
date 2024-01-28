@@ -14,7 +14,7 @@
 
 from dataclasses import dataclass, field
 
-from aemm.core.model import Model
+from cl.aemm.models.model import Model
 
 
 @dataclass
