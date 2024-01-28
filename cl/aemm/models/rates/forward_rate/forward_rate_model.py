@@ -17,7 +17,7 @@ from dataclasses import dataclass, field
 from cl.aemm.models.model import Model
 
 
-@dataclass
+@dataclass(slots=True)
 class ForwardRateModel(Model):
     """
     Base class of forward rate models in Q-measure.

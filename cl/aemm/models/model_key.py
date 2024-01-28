@@ -15,7 +15,7 @@
 from dataclasses import dataclass, field
 
 
-@dataclass
+@dataclass(slots=True)
 class ModelKey:
     """Primary key for the common base of all model implementations irrespective of type."""
 

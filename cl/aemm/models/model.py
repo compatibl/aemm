@@ -20,7 +20,7 @@ from cl.aemm.models.model_measure import ModelMeasure
 from cl.aemm.models.model_type import ModelType
 
 
-@dataclass
+@dataclass(slots=True)
 class Model(ModelKey):
     """Common base of all model implementations irrespective of type."""
 
