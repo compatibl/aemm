@@ -37,10 +37,10 @@ setuptools.setup(
         # License
         'License :: OSI Approved :: Apache Software License',
 
-        # Runs on Python 3.9 and later releases
-        'Programming Language :: Python :: 3.9',
+        # Runs on Python 3.10 and later releases
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
 
         # Operating system
         'Operating System :: OS Independent',
